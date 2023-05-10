@@ -1,0 +1,32 @@
+README MP4: Getting Done
+
+1.  Daniel Dinh
+    2376135
+    dadinh@chapman.edu
+    CPSC 231-04
+    MP4: Getting Done
+
+2.  Affiliate.java
+    Faculty.java
+    Assistant.java
+    Associate.java
+    Full.java
+    Student.java
+    Graduate.java
+    Undergraduate.java
+    Staff.java
+    Fulltime.java
+    Parttime.java
+    AffiliatesDriver.java
+
+3.  -N/A
+
+4.  - Worked with Charli S. on the Comparison option in Affiliates Driver
+    Charli also helped with EC with Inputting from File
+    - Discussed Printable interface and implementation with Evelyn L.
+    - Worked with Derek N. on the Output to File option in Affiliate Driver
+
+
+5.  javac *.java
+    java AffiliatesDriver
+    *Inputs depend on what user wishes to do
