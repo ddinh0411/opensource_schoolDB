@@ -28,7 +28,7 @@ public class Fulltime extends Staff{
   *@param i Integer representing the person's id
   *@param y Integer represnting the year the person first came to Chapman
   *@param t String of the staff memeber's title
-  *@param b String of the building name where the staff member works
+  *@param b String of the department name where the staff member works
   *@param ys Double of the staff member's annual salary
   */
   public double getYearlySalary(){

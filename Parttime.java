@@ -28,7 +28,7 @@ public class Parttime extends Staff{
   *@param i Integer representing the person's id
   *@param y Integer represnting the year the person first came to Chapman
   *@param t String of the staff memeber's title
-  *@param b String of the building name where the staff member works
+  *@param b String of the department name where the staff member works
   *@param hs Double of the staff member's hourly salary
   */
   public double getHourlySalary(){
