@@ -10,12 +10,12 @@
 public abstract class Staff extends Affiliate{
   protected String m_title;
   /** A string representing the staff member's title*/
-  protected String m_building;
-  /** A string representing the building where the staff member works*/
+  protected String m_department;
+  /** A string representing the department where the staff member works*/
   public Staff(){
     super();
     m_title = "";
-    m_building = "";
+    m_department = "";
   }
   /**
   *Default constructor for Staff
@@ -23,7 +23,7 @@ public abstract class Staff extends Affiliate{
   public Staff(String n, int a, String ad, long pn, int i, int y, String t, String b){
     super(n,a,ad,pn,i,y);
     m_title = t;
-    m_building = b;
+    m_department = b;
   }
   /**
   *Overloaded constructor of staff
@@ -34,7 +34,7 @@ public abstract class Staff extends Affiliate{
   *@param i Integer representing the person's id
   *@param y Integer represnting the year the person first came to Chapman
   *@param t String of the staff memeber's title
-  *@param b String of the building name where the staff member works
+  *@param b String of the department name where the staff member works
   */
   public String getTitle(){
     return m_title;
@@ -44,11 +44,11 @@ public abstract class Staff extends Affiliate{
   *@return A string of the staff member's title
   */
   public String getBuilding(){
-    return m_building;
+    return m_department;
   }
   /**
   *Accessor for the build where the staff member works
-  *@return Building name where the staff works
+  *@return department name where the staff works
   */
   public void setTitle(String t){
     m_title = t;
@@ -58,11 +58,11 @@ public abstract class Staff extends Affiliate{
   *@param t String of the staff member's title
   */
   public void setBuilding(String b){
-    m_building = b;
+    m_department = b;
   }
   /**
-  *Mutator for building
-  *@param b String of the building's name where the staff member works
+  *Mutator for department
+  *@param b String of the department's name where the staff member works
   */
   public void print(){
     System.out.println(this);
@@ -73,7 +73,7 @@ public abstract class Staff extends Affiliate{
   public String toString(){
     String s = "";
     s+= super.toString();
-    s+=", Building: "+m_building;
+    s+=", Department: "+m_department;
     s+=", Title: "+m_title;
     return s;
   }

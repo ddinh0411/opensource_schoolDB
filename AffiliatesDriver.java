@@ -157,7 +157,7 @@ public class AffiliatesDriver{
         int ft_ID = scn.nextInt();
         System.out.println("Enter Year Began: ");
         int ft_y = scn.nextInt();
-        System.out.println("Enter Building: ");
+        System.out.println("Enter Department: ");
         String ft_b = scn.next();
         System.out.println("Enter Title: ");
         String ft_t = scn.next();
@@ -180,7 +180,7 @@ public class AffiliatesDriver{
         int pt_ID = scn.nextInt();
         System.out.println("Enter Year Began: ");
         int pt_y = scn.nextInt();
-        System.out.println("Enter Building: ");
+        System.out.println("Enter Department: ");
         String pt_b = scn.next();
         System.out.println("Enter Title: ");
         String pt_t = scn.next();
